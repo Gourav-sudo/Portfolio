@@ -1,0 +1,250 @@
+body{
+    margin: 0px;
+}
+#bodyheader{
+height: 65vh;
+opacity: 1;
+background-image: url(techno.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.horizontal-list{
+list-style: none;
+padding-left: 0px;
+margin:0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 10px 12px 12px 0px;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.horizontal-list li a:hover{
+    color: lightgrey;
+    border-bottom: 2px solid lightgrey;
+    transition: color 0.5s , border 4s;
+    
+}
+.text-center{
+    text-align: center;
+}
+#myname{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 100px;
+    font-weight: 700;
+}
+.icons li{
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-top: -100px;
+}
+.icons li a i:hover{
+    box-shadow:0px 0px 4px 4px lightgrey ;
+}
+#home{
+    height:65vh;
+    width: 100%;
+}
+#image{
+height:12rem;
+width: 12rem;
+margin:auto;
+margin-top: -130px;
+margin-right: 47%;
+}
+#image img{
+    height:300px ;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 6px white
+}
+section{
+ width: 100%;   
+ height: 85vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ flex-wrap: wrap;
+}
+section:nth-child(2n)
+{
+background-color: rgb(211, 211, 211);
+}
+section:nth-child(2n + 1)
+{
+background-color: rgb(240, 234, 234);
+}
+.section-heading{
+    width: auto;
+    font-size: 50px;
+    padding: 20px 10px 10px; 
+    margin: 10px auto;
+    font-weight: 400;
+}
+.skill-display{
+    width:70%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*border: 2px solid black;*/
+    margin-top: 150px;
+    /* border:2px solid black; */
+
+}
+#me{
+    font-size: 20px;
+}
+.skill-progess {
+    width:15rem;
+    height: 2rem;;
+    background-color:grey;
+    border-radius: 0.8rem;
+    /*border: 2px solid black;*/
+}
+.skill-progess>div{
+    border-radius: 20px 0px 0px 20px;
+}
+.percentage{
+    width:80%;/*80% of parent*/
+    height: inherit;/*same as parent height*/
+    background-color: blue;
+}
+
+.skill-name span{
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+.timeline{
+    position: relative;
+    width: 75%;
+}
+.timeline-box{
+    position: relative ;
+    width: 40%;
+    left:5%;
+    border: 2px solid black;
+    min-height:120px;
+}
+.timeline-box:nth-child(2n)
+{
+    left:57%;
+}
+.timeline-divider{
+    position: absolute;
+    width: 0%;
+    height: 75%;
+    top: 10%;
+    left: 51%;
+    border: 4px dashed lightslategray;
+}
+.timeline-traveller{
+    position: sticky;
+    top: 35%;
+    left:80%;
+}
+.timeline-box:nth-child(2n+1):after{
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    top:33% ;
+    right: -14%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: black;
+}
+.timeline-box:nth-child(2n):after{
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    top:33% ;
+    left: -13%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color:black;
+}
+#contact{
+    background: linear-gradient(160deg ,rgb(169, 169, 223),blue  );
+}
+#left-box{
+    position: relative;
+    margin-top: 80px;
+    width: 45%;
+    height:80%;
+    margin-left: 25px;
+    /* border: 2px solid black;  */
+    padding-top: 20px;
+}
+#list{
+    width:75%;
+    height:70%;
+    /* border:2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+#right-box{
+    position: relative;
+    /* margin-top: 20px; */
+    width: 45%;
+    height:80%;
+    left:50%;
+    display:inline-block;
+    margin-left: 25px;
+    margin-top: -32.5%;
+    /* border: 2px solid black; */
+}
+.touch{
+    color: white;
+    /* text-align: center; */
+    font-size: 1.5rem;
+    /* margin-top: 100px; */
+    font-weight: 700;
+}
+.in{
+    color: white;
+    /* text-align: center; */
+    font-size: 1.3rem;
+    /* margin-top: 100px; */
+    font-weight: 700;
+    margin-right: 20%;
+}
+#add{
+    color: white;
+    /* text-align: center; */
+    font-size: 1rem;
+    /* margin-top: 100px; */
+    font-weight: 700;
+}
+input{
+    border:none;
+    border-bottom: 2px solid white;
+    width:100%;
+    padding: 5px 0;
+    outline: none;
+    background-color: transparent;
+    
+}
+label{
+    font-size: 1rem;
+    color: white;
+}
+textarea{
+    background-color: transparent;
+}
+button{
+   font-size: larger;
+   background-color: transparent;
+}
+button:hover{
+    background-color: aliceblue;
+}
